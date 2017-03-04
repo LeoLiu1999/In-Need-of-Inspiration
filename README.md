@@ -1,5 +1,5 @@
 # In-Need-of-Inspiration
-Members: Dasha Kat
+Members: Dasha Shifrina
          Rihui Zheng
          Yuanchu Liu (Leo)
 
