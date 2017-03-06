@@ -1,3 +1,10 @@
+/*
+In Need of Inspiration: Yunachu Liu(Leo), Rihui Zheng, Dasha Shifrina
+APCS2 pd3
+HW#12: Thinkers of the Corn
+2017-03-06
+*/
+
 /***
  * SKEELTON for class 
  * MazeSolver
@@ -108,7 +115,7 @@ class MazeSolver
      *********************************************/
     public void solve( int x, int y ) {
 
-	delay(50); //slow it down enough to be followable
+	//delay(50); //slow it down enough to be followable
 
 	//primary base case
 	if (solved) {
@@ -131,7 +138,7 @@ class MazeSolver
 	        
 	    maze[x][y] = HERO;
 	    System.out.println(this);
-	    delay(50);
+	    //delay(50);
 
 	    maze[x][y] = VISITED_PATH;
 	    
@@ -142,7 +149,7 @@ class MazeSolver
 
 	    maze[x][y] = HERO;
 	    System.out.println(this);
-	    delay(50);
+	    //delay(50);
 	    maze[x][y] = PATH;
 	    	    
 	}
