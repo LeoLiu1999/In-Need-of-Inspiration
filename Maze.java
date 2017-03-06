@@ -16,7 +16,7 @@ HW#12: Thinkers of the Corn
  * (mazefile is ASCII representation of maze, using symbols below)
  * 
  * ALGORITHM for finding exit from starting position:
- *  <INSERT YOUR SUMMARY OF ALGO HERE>
+ *  Exactly like the Knight Tour, except with four choices: up, down, left, and right. Our hero tries each one and if blocked in its path, it will go back one stop and try again until a working path is found(if any).
  ***/
 
 //enable file I/O
